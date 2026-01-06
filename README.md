@@ -1,11 +1,49 @@
-<div align="center">
+# 大丰收食材批发配送有限公司 (Great Harvest Fresh)
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+![大丰收 Logo](https://img.icons8.com/color/96/harvest.png)
 
-  <h1>Built with AI Studio</h2>
+## 📖 项目简介
+**大丰收** 是菲律宾领先的专业餐饮供应链平台，由 **菲律宾江西商会** 荣誉背书。
 
-  <p>The fastest path from prompt to production with Gemini.</p>
+本项目致力于为菲律宾政府机关、军队食堂、驻菲机构以及大型中资企业提供一站式、高标准的食材批发与配送解决方案。自 2019 年在 **许俊华先生** 带领下创办以来，大丰收在 **邱总**（商会促进经济会长）的指导下，建立了覆盖大马尼拉地区的实时鲜配体系。
 
-  <a href="https://aistudio.google.com/apps">Start building</a>
+## ✨ 核心特性
+- **商会信誉保障**：每一份食材均由江西商会品质小组严选监制。
+- **政企供应标准**：符合政府与军队集采的严格检疫及溯源要求。
+- **实时询价系统**：针对生鲜市场价格波动，集成 Telegram 实时行情对接。
+- **全品类目录**：涵盖 90+ 种精选肉类、海鲜及季节性蔬菜。
+- **极致视觉设计**：采用“官印绿”与“华丽金”配色，彰显专业与信赖。
 
-</div>
+## 🛠 技术架构
+- **前端框架**：React 19 (基于最新 ESM 模块化加载)
+- **样式处理**：Tailwind CSS (响应式布局)
+- **图标系统**：自定义 SVG 品牌标识
+- **部署平台**：推荐 Vercel (支持零配置快速构建)
+- **核心组件**：
+  - `ProductGrid`：动态筛选的食材目录。
+  - `CartDrawer`：交互式询价清单管理。
+  - `Checkout`：标准化的政企采购询价函生成器。
+
+## 🚀 快速开始
+
+### 开发环境
+本项目采用原生 ESM 导入映射（Import Maps），无需复杂的构建工具即可运行。
+
+1. 克隆项目到本地。
+2. 使用静态服务器（如 `serve` 或 VS Code Live Server）打开 `index.html`。
+
+### 部署至 Vercel
+项目已针对 Vercel 优化，支持即插即用：
+1. 将代码推送至 GitHub/GitLab。
+2. 在 Vercel 后台关联仓库。
+3. 框架选择 `Other` 或 `Create React App`，部署即可。
+
+## 📞 联系与合作
+- **董事长热线**：9614964569
+- **业务咨询**：09552461263
+- **官方 Telegram**：[立即联系](https://t.me/gd55599999)
+
+---
+
+> **物华天宝，岁岁丰收。**
+> 菲律宾江西商会 · 大丰收配送有限公司 联合出品
