@@ -13,8 +13,9 @@
     @apply font-sans bg-[#F9F7F2] text-[#1A3C34] overflow-x-hidden antialiased;
   }
 
-  h1, h2, h3, h4, .font-serif {
-    @apply font-serif;
+  /* 修复：使用 theme() 代替 @apply，彻底消除循环依赖报错 */
+  h1, h2, h3, h4 {
+    font-family: theme('fontFamily.serif');
   }
 }
 
