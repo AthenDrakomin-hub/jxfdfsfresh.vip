@@ -19,7 +19,7 @@ const Journal: React.FC<JournalProps> = ({ onArticleClick }) => {
       <div className="max-w-[1800px] mx-auto">
         <div className="flex flex-col md:flex-row justify-between items-start md:items-end mb-20 pb-8 border-b border-[#D6D1C7]">
             <div>
-                <span className="block text-xs font-bold uppercase tracking-[0.4em] text-[#A8A29E] mb-4">官方内刊 / Editorial</span>
+                <span className="block text-xs font-bold uppercase tracking-[0.4em] text-[#A8A29E] mb-4">官方内刊 / CHAMBER NEWS</span>
                 <h2 className="text-4xl md:text-6xl font-serif text-[#1A3C34] font-bold">大丰收动态</h2>
             </div>
         </div>

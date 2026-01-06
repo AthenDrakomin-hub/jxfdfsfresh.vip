@@ -19,12 +19,12 @@ const Footer: React.FC<FooterProps> = ({ onLinkClick }) => {
         <div className="md:col-span-5">
           <div className="flex items-center gap-4 mb-8">
             <svg width="48" height="48" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M50 5L85 25V75L50 95L15 75V25L50 5Z" stroke="#DAA520" strokeWidth="2"/>
-              <path d="M50 25V75M35 40L50 55M65 40L50 55M35 60L50 75M65 60L50 75" stroke="#DAA520" strokeWidth="4" strokeLinecap="round"/>
+              <path d="M50 8L82 22V50C82 70 68 88 50 94C32 88 18 70 18 50V22L50 8Z" fill="white" fillOpacity="0.05" stroke="#DAA520" strokeWidth="2"/>
+              <path d="M42 45C42 45 40 35 50 30M50 30C60 35 58 45 58 45M50 30V75M38 55C38 55 35 48 45 45M62 55C62 55 65 48 55 45M40 70C40 70 38 62 48 60M60 70C60 70 62 62 52 60" stroke="#DAA520" strokeWidth="4" strokeLinecap="round"/>
             </svg>
             <div className="flex flex-col">
               <h4 className="text-3xl font-serif text-[#DAA520] font-bold tracking-tighter leading-none">{BRAND_NAME}</h4>
-              <span className="text-[10px] text-white/50 uppercase tracking-[0.3em] mt-1">食材批发配送有限公司</span>
+              <span className="text-[10px] text-white/50 uppercase tracking-[0.3em] mt-1 font-bold">食材批发配送有限公司</span>
             </div>
           </div>
           <p className="max-w-md font-light leading-relaxed mb-10 text-sm">
@@ -79,7 +79,7 @@ const Footer: React.FC<FooterProps> = ({ onLinkClick }) => {
       <div className="max-w-[1800px] mx-auto mt-24 pt-10 border-t border-white/5 flex flex-col md:flex-row justify-between items-center text-[9px] uppercase tracking-[0.4em] opacity-40">
         <p>© 2025 大丰收食材批发配送有限公司 | 菲律宾江西商会 荣誉出品</p>
         <div className="flex gap-8 mt-6 md:mt-0">
-          <span>SINCE 2019</span>
+          <span>始于 2019</span>
           <span>菲律宾驻华大使馆商务背书</span>
         </div>
       </div>
